@@ -28,7 +28,10 @@ const pretty = require("pretty-ms");
 const moment = require('moment');
 const request = require('request');
 const dateFormat = require('dateformat');
-
+///////
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+});
 ///////
 const prefix = "-"
 const developers = "740700552593145876"
